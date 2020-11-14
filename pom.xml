@@ -10,6 +10,7 @@
   <version>1.0.0</version>
   <modules>
     <module>redission</module>
+      <module>curator</module>
   </modules>
 
   <name>java-study</name>

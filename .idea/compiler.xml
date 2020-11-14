@@ -7,9 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="redission" />
+        <module name="curator" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="curator" target="1.5" />
       <module name="java-study" target="1.5" />
       <module name="redission" target="1.5" />
     </bytecodeTargetLevel>

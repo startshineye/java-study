@@ -5,21 +5,16 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.yxm</groupId>
-  <artifactId>java-study</artifactId>
-  <packaging>pom</packaging>
+  <artifactId>jdk</artifactId>
   <version>1.0.0</version>
-  <modules>
-    <module>redission</module>
-      <module>curator</module>
-      <module>jdk</module>
-  </modules>
 
-  <name>java-study</name>
+  <name>jdk</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>1.7</maven.compiler.source>
   </properties>
 
   <dependencies>
@@ -30,7 +25,4 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-
-  <build>
-  </build>
 </project>

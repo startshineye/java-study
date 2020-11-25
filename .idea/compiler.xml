@@ -6,13 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="redission" />
         <module name="curator" />
+        <module name="jdk" />
+        <module name="redission" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="curator" target="1.5" />
       <module name="java-study" target="1.5" />
+      <module name="jdk" target="1.7" />
       <module name="redission" target="1.5" />
     </bytecodeTargetLevel>
   </component>
